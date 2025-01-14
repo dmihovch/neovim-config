@@ -8,4 +8,3 @@ map("v", "<C-c>", '"+y', opt)
 map("n", "<C-v>", '"+p', opt)
 
 
-
