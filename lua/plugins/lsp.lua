@@ -32,6 +32,7 @@ return {
 				{name = 'buffer'},
 				{name = 'path'},
 				{name = 'luasnip'},
+				{name = 'cmdline'}
 			},
 		})
 
@@ -45,7 +46,6 @@ return {
 		require("lspconfig").ts_ls.setup{}
 		require("lspconfig").jdtls.setup{}
 		require("lspconfig").clangd.setup{}
-	--	require("lspconfig").svelte_language_server.setup{}
 		require("lspconfig").gopls.setup{}
 		require("lspconfig").cssls.setup{}
 		require("lspconfig").html.setup{}
