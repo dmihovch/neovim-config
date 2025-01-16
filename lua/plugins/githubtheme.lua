@@ -5,6 +5,6 @@ return {
 	config = function()
 		require("github-theme").setup({
 		})
-		vim.cmd("colorscheme github_dark_dimmed") -- Apply the colorscheme
+--		vim.cmd("colorscheme github_dark_dimmed") -- Apply the colorscheme
 	end,
 }
