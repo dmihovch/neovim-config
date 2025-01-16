@@ -20,7 +20,7 @@ return {
 		require("mason").setup()
 
 		require("mason-lspconfig").setup({
-			ensure_installed = { "lua_ls", "pyright", "ts_ls", "jdtls", "clangd", "gopls" },
+			ensure_installed = { "lua_ls", "pyright", "ts_ls", "jdtls", "clangd", "gopls", "html", "cssls" },
 		})
 		require("lspconfig").lua_ls.setup{}
 		require("lspconfig").pyright.setup{}
@@ -29,8 +29,7 @@ return {
 		require("lspconfig").clangd.setup{}
 	--	require("lspconfig").svelte_language_server.setup{}
 		require("lspconfig").gopls.setup{}
---		require("lspconfig").asm_lsp.setup{}
-	--	require("lspconfig").css_lsp.setup{}
-	--	require("lspconfig").html_lsp.setup{}
+		require("lspconfig").cssls.setup{}
+		require("lspconfig").html.setup{}
 	end,
 }
