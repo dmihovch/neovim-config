@@ -16,7 +16,7 @@ return {
 	config = function()
 		local lsp = require("lsp-zero")
 		lsp.extend_lspconfig()
-
+		
 		local cmp = require("cmp")
 		local cmp_select = {behavior = cmp.SelectBehavior.Select}
 
